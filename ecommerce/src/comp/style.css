@@ -1,0 +1,47 @@
+.main-div{
+    /* display: flex; */
+    float: left;
+    width: 25%; 
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+body{
+    background-color:rgb(247, 188, 78)
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+button{
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+img{
+    width:350px;
+    height:400px;
+    border-radius: 10px;
+}
+img:hover{
+    width: 360px;
+    height: 410px;
+}
+h1{
+    color: rgb(196, 76, 76)
+}
+
+    
